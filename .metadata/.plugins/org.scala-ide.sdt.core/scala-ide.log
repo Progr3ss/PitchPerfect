@@ -1,0 +1,225 @@
+2015-06-24 14:29:40,271 ERROR [org.eclipse.jdt.internal.ui.text.JavaReconciler] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.launching.JREContainerInitializer
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-06-24 14:29:40,487 ERROR [org.eclipse.jdt.internal.ui.text.JavaReconciler] - System.err - [org.eclipse.debug.core] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.debug.core.ILaunchesListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-06-24 14:32:42,312 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-06-24 14:33:46,256 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-06-24 14:33:55,770 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error during askOption
+scala.reflect.internal.FatalError: Unknown type: <error>, <error> [class scala.reflect.internal.Types$ErrorType$, class scala.reflect.internal.Types$ErrorType$] TypeRef? false
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:49)
+	at scala.tools.nsc.Global.abort(Global.scala:254)
+	at scala.tools.nsc.backend.icode.TypeKinds$class.toTypeKind(TypeKinds.scala:397)
+	at scala.tools.nsc.backend.icode.ICodes.toTypeKind(ICodes.scala:20)
+	at scala.tools.nsc.backend.icode.TypeKinds$class.scala$tools$nsc$backend$icode$TypeKinds$$arrayOrClassType(TypeKinds.scala:406)
+	at scala.tools.nsc.backend.icode.TypeKinds$$anonfun$primitiveOrClassType$1.apply(TypeKinds.scala:433)
+	at scala.tools.nsc.backend.icode.TypeKinds$$anonfun$primitiveOrClassType$1.apply(TypeKinds.scala:433)
+	at scala.collection.MapLike$class.getOrElse(MapLike.scala:128)
+	at scala.collection.AbstractMap.getOrElse(Map.scala:58)
+	at scala.tools.nsc.backend.icode.TypeKinds$class.primitiveOrClassType(TypeKinds.scala:433)
+	at scala.tools.nsc.backend.icode.TypeKinds$class.toTypeKind(TypeKinds.scala:383)
+	at scala.tools.nsc.backend.icode.ICodes.toTypeKind(ICodes.scala:20)
+	at scala.tools.nsc.backend.jvm.GenJVMUtil$BytecodeUtil$class.javaType(GenJVMUtil.scala:100)
+	at scala.tools.eclipse.JVMUtils$$anon$1.javaType(JVMUtils.scala:15)
+	at scala.tools.eclipse.JVMUtils$class.javaType(JVMUtils.scala:38)
+	at scala.tools.eclipse.ScalaPresentationCompiler.javaType(ScalaPresentationCompiler.scala:36)
+	at scala.tools.eclipse.javaelements.ScalaJavaMapper$class.mapParamTypeSignature(ScalaJavaMapper.scala:232)
+	at scala.tools.eclipse.ScalaPresentationCompiler.mapParamTypeSignature(ScalaPresentationCompiler.scala:36)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$DefOwner$$anonfun$16.apply(ScalaStructureBuilder.scala:674)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$DefOwner$$anonfun$16.apply(ScalaStructureBuilder.scala:674)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:105)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$DefOwner$class.addDef(ScalaStructureBuilder.scala:674)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$Builder.addDef(ScalaStructureBuilder.scala:872)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$DefOwner$class.addDef(ScalaStructureBuilder.scala:659)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$Builder.addDef(ScalaStructureBuilder.scala:872)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser.traverse(ScalaStructureBuilder.scala:944)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser$$anonfun$traverse$1.apply(ScalaStructureBuilder.scala:951)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser$$anonfun$traverse$1.apply(ScalaStructureBuilder.scala:951)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser.traverse(ScalaStructureBuilder.scala:951)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser$$anonfun$traverse$1.apply(ScalaStructureBuilder.scala:951)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser$$anonfun$traverse$1.apply(ScalaStructureBuilder.scala:951)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser.traverse(ScalaStructureBuilder.scala:951)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser$$anonfun$traverse$1.apply(ScalaStructureBuilder.scala:951)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser$$anonfun$traverse$1.apply(ScalaStructureBuilder.scala:951)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser.traverse(ScalaStructureBuilder.scala:951)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser.traverse(ScalaStructureBuilder.scala:904)
+	at scala.tools.eclipse.javaelements.ScalaCompilationUnit$$anonfun$buildStructure$2$$anonfun$apply$5$$anonfun$apply$1.apply$mcV$sp(ScalaCompilationUnit.scala:89)
+	at scala.tools.eclipse.javaelements.ScalaCompilationUnit$$anonfun$buildStructure$2$$anonfun$apply$5$$anonfun$apply$1.apply(ScalaCompilationUnit.scala:88)
+	at scala.tools.eclipse.javaelements.ScalaCompilationUnit$$anonfun$buildStructure$2$$anonfun$apply$5$$anonfun$apply$1.apply(ScalaCompilationUnit.scala:88)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:346)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2015-06-24 15:36:29,754 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-06-24 15:36:29,852 ERROR [main] - System.err - [org.eclipse.debug.core] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.debug.core.ILaunchesListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-06-24 15:36:36,231 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-06-24 15:36:46,738 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-06-24 22:14:34,631 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-06-24 22:14:34,845 ERROR [main] - System.err - [org.eclipse.debug.core] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.debug.core.ILaunchesListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-06-24 22:15:38,949 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-06-24 22:18:21,099 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-06-26 01:17:41,158 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error during askOption
+scala.reflect.internal.FatalError: Unknown type: <error>, <error> [class scala.reflect.internal.Types$ErrorType$, class scala.reflect.internal.Types$ErrorType$] TypeRef? false
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:49)
+	at scala.tools.nsc.Global.abort(Global.scala:254)
+	at scala.tools.nsc.backend.icode.TypeKinds$class.toTypeKind(TypeKinds.scala:397)
+	at scala.tools.nsc.backend.icode.ICodes.toTypeKind(ICodes.scala:20)
+	at scala.tools.nsc.backend.icode.TypeKinds$class.scala$tools$nsc$backend$icode$TypeKinds$$arrayOrClassType(TypeKinds.scala:406)
+	at scala.tools.nsc.backend.icode.TypeKinds$$anonfun$primitiveOrClassType$1.apply(TypeKinds.scala:433)
+	at scala.tools.nsc.backend.icode.TypeKinds$$anonfun$primitiveOrClassType$1.apply(TypeKinds.scala:433)
+	at scala.collection.MapLike$class.getOrElse(MapLike.scala:128)
+	at scala.collection.AbstractMap.getOrElse(Map.scala:58)
+	at scala.tools.nsc.backend.icode.TypeKinds$class.primitiveOrClassType(TypeKinds.scala:433)
+	at scala.tools.nsc.backend.icode.TypeKinds$class.toTypeKind(TypeKinds.scala:383)
+	at scala.tools.nsc.backend.icode.ICodes.toTypeKind(ICodes.scala:20)
+	at scala.tools.nsc.backend.jvm.GenJVMUtil$BytecodeUtil$class.javaType(GenJVMUtil.scala:100)
+	at scala.tools.eclipse.JVMUtils$$anon$1.javaType(JVMUtils.scala:15)
+	at scala.tools.eclipse.JVMUtils$class.javaType(JVMUtils.scala:38)
+	at scala.tools.eclipse.ScalaPresentationCompiler.javaType(ScalaPresentationCompiler.scala:36)
+	at scala.tools.eclipse.javaelements.ScalaJavaMapper$class.mapParamTypeSignature(ScalaJavaMapper.scala:232)
+	at scala.tools.eclipse.ScalaPresentationCompiler.mapParamTypeSignature(ScalaPresentationCompiler.scala:36)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$DefOwner$$anonfun$16.apply(ScalaStructureBuilder.scala:674)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$DefOwner$$anonfun$16.apply(ScalaStructureBuilder.scala:674)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:105)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$DefOwner$class.addDef(ScalaStructureBuilder.scala:674)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$Builder.addDef(ScalaStructureBuilder.scala:872)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$DefOwner$class.addDef(ScalaStructureBuilder.scala:659)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$Builder.addDef(ScalaStructureBuilder.scala:872)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser.traverse(ScalaStructureBuilder.scala:944)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser$$anonfun$traverse$1.apply(ScalaStructureBuilder.scala:951)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser$$anonfun$traverse$1.apply(ScalaStructureBuilder.scala:951)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser.traverse(ScalaStructureBuilder.scala:951)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser$$anonfun$traverse$1.apply(ScalaStructureBuilder.scala:951)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser$$anonfun$traverse$1.apply(ScalaStructureBuilder.scala:951)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser.traverse(ScalaStructureBuilder.scala:951)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser$$anonfun$traverse$1.apply(ScalaStructureBuilder.scala:951)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser$$anonfun$traverse$1.apply(ScalaStructureBuilder.scala:951)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser$TreeTraverser.traverse(ScalaStructureBuilder.scala:951)
+	at scala.tools.eclipse.javaelements.ScalaStructureBuilder$StructureBuilderTraverser.traverse(ScalaStructureBuilder.scala:904)
+	at scala.tools.eclipse.javaelements.ScalaCompilationUnit$$anonfun$buildStructure$2$$anonfun$apply$5$$anonfun$apply$1.apply$mcV$sp(ScalaCompilationUnit.scala:89)
+	at scala.tools.eclipse.javaelements.ScalaCompilationUnit$$anonfun$buildStructure$2$$anonfun$apply$5$$anonfun$apply$1.apply(ScalaCompilationUnit.scala:88)
+	at scala.tools.eclipse.javaelements.ScalaCompilationUnit$$anonfun$buildStructure$2$$anonfun$apply$5$$anonfun$apply$1.apply(ScalaCompilationUnit.scala:88)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:346)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2015-06-26 01:50:14,902 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala.runtime in compiler mirror not found.
+2015-06-26 01:52:35,520  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:35,521  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:35,521  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:35,521  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:35,521  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:35,522  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:35,522  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:35,522  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:37,424  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:40,583  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:40,583  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:40,583  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:40,583  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:40,583  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:40,583  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:40,583  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:40,584  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:40,584  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:40,584  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:40,584  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:52:42,244  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:59:36,863  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:59:36,864  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:59:36,864  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:59:36,865  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:59:36,865  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:59:36,865  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:59:36,865  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:59:36,865  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:59:36,865  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:59:36,866  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:59:36,866  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:59:36,867  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:59:36,867  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 01:59:36,868  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 22:10:32,413 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala.runtime in compiler mirror not found.
+2015-06-26 22:10:35,743  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 22:10:35,744  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 22:10:35,744  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 22:10:35,744  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-26 22:10:37,652  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:13:43,936  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:13:43,948  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:13:43,951  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:13:43,952  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:13:43,952  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:13:43,952  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:13:43,952  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:13:47,354  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:14:00,739  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:14:00,740  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:14:00,740  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:14:00,740  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:14:00,741  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:14:00,741  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:14:00,741  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:14:00,741  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:14:00,741  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:14:00,742  WARN [main] - SemanticHighlightingReconciliation - Compilation unit for EditorInput Applicative.scala is `null`. This could indicate a regression.
+2015-06-27 00:15:22,691 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala.runtime in compiler mirror not found.
+2015-06-27 01:30:33,988 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala.runtime in compiler mirror not found.
+2015-06-27 01:32:01,292 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala.runtime in compiler mirror not found.

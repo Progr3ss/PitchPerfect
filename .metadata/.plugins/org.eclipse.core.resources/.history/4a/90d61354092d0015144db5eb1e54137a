@@ -1,0 +1,113 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Arrays;
+import java.util.Timer;
+import java.util.TimerTask;
+
+
+
+/**
+ * 
+ * @author martin chibwe
+ * Sorting Algorithms 
+ * 
+ *
+ */
+
+
+public class Sorting {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+//		Stopwatch stopWatch = new Stopwatch();
+		Stopwatch stopwatch = new Stopwatch();
+		//		System.out.println("helol");
+		int arrayList[] = {10,9,8,7,6,5,4,3,2,1,0};
+		//		System.out.println("\n bubbleSortFinal result: " + Arrays.toString(bubbleSort(arrayList)) );
+		//		System.out.println("\n selectionSort Final result: " + Arrays.toString(selectionSort(arrayList)) );
+		System.out.println("\n insertionSort Final result: " + Arrays.toString(insertionSort(arrayList)) );
+
+
+	}
+
+	//bubble sort 
+	public static int[] bubbleSort(int[] array ){
+
+		Stopwatch stopwatch = new Stopwatch();
+
+		int temp;
+		for (int i = 0; i < array.length-1; i++) {
+
+			for (int j = 1; j < array.length-i; j++) {
+
+				if (array[j -1] > array[j]){
+					temp = array[j-1];
+					array[j-1] = array[j];
+					array[j] = temp;
+
+				}
+
+			}
+
+			System.out.println( (i+1) + " th iteration result:  " + 
+					Arrays.toString(array)+" time in ms : "+ stopwatch.elapsedTime());
+
+
+		}
+		return array;
+
+	}
+
+	//sellection sort 
+	public static int [] selectionSort(int[] array){
+		Stopwatch stopWatch = new Stopwatch();
+
+		for (int i = 0; i < array.length - 1; i++)
+		{
+			int index = i;
+			for (int j = i + 1; j < array.length; j++){
+				if (array[j] < array[index]) 
+					index = j;
+				int smallerNumber = array[index];  
+				array[index] = array[i];
+				array[i] = smallerNumber;
+			}
+
+			System.out.println( (i+1) + " th iteration result:  " + 
+					Arrays.toString(array)+" time in ms : "+stopWatch.elapsedTime());
+		}
+		return array;
+	}
+
+
+//insertionSort 
+	public static int[] insertionSort(int[] array) {
+		Stopwatch stopWatch = new Stopwatch();
+		for (int i = 1; i < array.length; i++) {
+			int next = array[i];
+			// find the insertion location while moving all larger element up
+			int j = i;
+			while (j > 0 && array[j - 1] > next) {
+				array[j] = array[j - 1];
+				j--;
+			}
+			// insert the element
+			array[j] = next;
+//			System.out.println(Arrays.toString(array));	
+			System.out.println( (i+1) + " th iteration result:  " + 
+					Arrays.toString(array)+" time in ms : "+stopWatch.elapsedTime());
+		}
+		return array;
+	}
+	
+
+
+
+
+
+
+
+}
+

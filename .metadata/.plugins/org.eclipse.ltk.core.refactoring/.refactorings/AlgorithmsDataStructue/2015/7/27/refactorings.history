@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;arrays&apos; in &apos;BubleSort.BubleSort2(...)&apos; to &apos;arr&apos;&#x0A;- Original project: &apos;AlgorithmsDataStructue&apos;&#x0A;- Original element: &apos;BubleSort.BubleSort2(int[]).arrays&apos;&#x0A;- Renamed element: &apos;arrays&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;arrays&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{BubleSort.java[BubleSort~BubleSort2~\[I@arrays!693!705!700!705!\[I!0!true" name="arr" references="true" stamp="1435737755502" version="1.0"/>
+</session>

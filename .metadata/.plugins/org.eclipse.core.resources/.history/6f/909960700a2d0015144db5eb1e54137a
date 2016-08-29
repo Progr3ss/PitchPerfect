@@ -1,0 +1,47 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+
+public class ArrayList {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] data = {12,7,-1,25,3,9};
+		int []numbers = new int [8];
+		numbers[1] = 4;
+		numbers[4] = 99;
+		numbers[7] = 2;
+		
+		int x = numbers[1];
+		numbers[x] = 44;
+		numbers[numbers[7]] = 11;
+//		Arrays.toString(maxNumberArray(data));
+//		System.out.println(Arrays.toString(maxNumerArray(data)));
+//		maxNumberArray(data);
+		
+//		System.out.println(Arrays.toString(numbers));
+		
+		System.out.println("\n Max "+ Arrays.toString(maxNumberArray(data)) );
+
+	}
+	
+	public static int[] maxNumberArray(int []array){
+		int temp;
+		for (int i = 0; i < array.length -1; i++) {
+			for (int j = 1; j < array.length; j++) {
+				if(array[j - 1] > array[j]){
+					temp = array[j -j];
+					array[j -1] = array[j];
+					
+					array[j] = temp;
+				}
+			}
+		}
+		
+		return array;
+	}
+
+}

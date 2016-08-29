@@ -1,0 +1,650 @@
+03:47:57 **** Build of configuration Debug for project LearningC ****
+make all 
+Building file: ../00_04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"00_04.d" -MT"00_04.d" -o "00_04.o" "../00_04.c"
+Finished building: ../00_04.c
+ 
+Building file: ../01_03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"01_03.d" -MT"01_03.d" -o "01_03.o" "../01_03.c"
+Finished building: ../01_03.c
+ 
+Building file: ../02_01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"02_01.d" -MT"02_01.d" -o "02_01.o" "../02_01.c"
+Finished building: ../02_01.c
+ 
+Building file: ../02_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"02_02.d" -MT"02_02.d" -o "02_02.o" "../02_02.c"
+Finished building: ../02_02.c
+ 
+Building file: ../02_03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"02_03.d" -MT"02_03.d" -o "02_03.o" "../02_03.c"
+Finished building: ../02_03.c
+ 
+Building file: ../02_04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"02_04.d" -MT"02_04.d" -o "02_04.o" "../02_04.c"
+Finished building: ../02_04.c
+ 
+Building file: ../02_05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"02_05.d" -MT"02_05.d" -o "02_05.o" "../02_05.c"
+../02_05.c:30:6: warning: unused variable 'counter' [-Wunused-variable]
+        int counter = 0;        //This is used to count the number of times certain tasks are performed
+            ^
+../02_05.c:31:7: warning: unused variable 'roles' [-Wunused-variable]
+        char roles[10];         //This string will be assigned value at runtime; the values can be: admin, contributor, viewer
+             ^
+Finished building: ../02_05.c
+2 warnings generated.
+ 
+Building file: ../03_01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"03_01.d" -MT"03_01.d" -o "03_01.o" "../03_01.c"
+../03_01.c:25:17: warning: unused variable 'number6' [-Wunused-variable]
+                unsigned long   number6;
+                                ^
+../03_01.c:20:10: warning: unused variable 'number1' [-Wunused-variable]
+                int                             number1;
+                                                ^
+../03_01.c:21:17: warning: unused variable 'number2' [-Wunused-variable]
+Finished building: ../03_01.c
+                unsigned int            number2;
+                                        ^
+../03_01.c:28:11: warning: unused variable 'number7' [-Wunused-variable]
+                float                   number7;
+                                        ^
+../03_01.c:17:11: warning: unused variable 'symbol1' [-Wunused-variable]
+                char                    symbol1;
+                                        ^
+../03_01.c:23:20: warning: unused variable 'number4' [-Wunused-variable]
+                unsigned short          number4;
+                                        ^
+../03_01.c:22:11: warning: unused variable 'number3' [-Wunused-variable]
+                short                   number3;
+                                        ^
+../03_01.c:18:17: warning: unused variable 'symbol2' [-Wunused-variable]
+                unsigned char   symbol2;
+                                ^
+../03_01.c:29:12: warning: unused variable 'number8' [-Wunused-variable]
+                double                  number8;
+                                        ^
+../03_01.c:24:11: warning: unused variable 'number5' [-Wunused-variable]
+                long                            number5;
+                                                ^
+../03_01.c:30:16: warning: unused variable 'number9' [-Wunused-variable]
+                long double             number9;
+                                        ^
+../03_01.c:19:16: warning: unused variable 'symbol3' [-Wunused-variable]
+                signed char             symbol3;
+                                        ^
+12 warnings generated.
+ 
+Building file: ../03_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"03_02.d" -MT"03_02.d" -o "03_02.o" "../03_02.c"
+Finished building: ../03_02.c
+ 
+Building file: ../03_03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"03_03.d" -MT"03_03.d" -o "03_03.o" "../03_03.c"
+../03_03.c:44:40: warning: format specifies type 'double' but the argument has type 'long double' [-Wformat]
+        printf("longDoubleNumber = %1.30g\n", longDoubleNumber);
+                                   ~~~~~~     ^~~~~~~~~~~~~~~~
+                                   %1.30Lg
+1 warning generated.
+Finished building: ../03_03.c
+ 
+Building file: ../03_04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"03_04.d" -MT"03_04.d" -o "03_04.o" "../03_04.c"
+../03_04.c:19:8: warning: unused variable 'ptr' [-Wunused-variable]
+        void *ptr;
+              ^
+1 warning generated.
+Finished building: ../03_04.c
+ 
+Building file: ../03_05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"03_05.d" -MT"03_05.d" -o "03_05.o" "../03_05.c"
+Finished building: ../03_05.c
+ 
+Building file: ../04_01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"04_01.d" -MT"04_01.d" -o "04_01.o" "../04_01.c"
+../04_01.c:17:21: warning: initializer-string for char array is too long
+        char address[30] = "123 Some Street, SomeCity, USA, 12345";
+                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../04_01.c:17:7: warning: unused variable 'address' [-Wunused-variable]
+        char address[30] = "123 Some Street, SomeCity, USA, 12345";
+             ^
+../04_01.c:26:7: warning: unused variable 'name' [-Wunused-variable]
+        char name[40] = "FirstName MiddleName LastName";
+             ^
+3 warnings generated.
+Finished building: ../04_01.c
+ 
+Building file: ../04_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"04_02.d" -MT"04_02.d" -o "04_02.o" "../04_02.c"
+../04_02.c:23:17: warning: format specifies type 'char *' but the argument has type 'char (*)[20]' [-Wformat]
+           scanf("%s", &name);
+                  ~~   ^~~~~
+../04_02.c:26:17: warning: format specifies type 'char *' but the argument has type 'char (*)[30]' [-Wformat]
+Finished building: ../04_02.c
+           scanf("%s", &address);
+                  ~~   ^~~~~~~~
+2 warnings generated.
+ 
+Building file: ../04_03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"04_03.d" -MT"04_03.d" -o "04_03.o" "../04_03.c"
+../04_03.c:21:4: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)'
+          strcpy(string1, "Anybody");
+          ^
+../04_03.c:21:4: note: include the header <string.h> or explicitly provide a declaration for 'strcpy'
+../04_03.c:24:15: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)'
+          int len1 = strlen(string1);
+                     ^
+../04_03.c:24:15: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+../04_03.c:29:37: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)'
+          printf("Return Value is : %d\n", strcmp( string1, string2));
+Finished building: ../04_03.c
+                                           ^
+../04_03.c:29:37: note: include the header <string.h> or explicitly provide a declaration for 'strcmp'
+ 
+Building file: ../05_01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"05_01.d" -MT"05_01.d" -o "05_01.o" "../05_01.c"
+3 warnings generated.
+../05_01.c:25:7: warning: unused variable 'mylastknownaddress' [-Wunused-variable]
+        char mylastknownaddress[30];
+             ^
+../05_01.c:20:6: warning: unused variable 'x' [-Wunused-variable]
+        int x;
+            ^
+../05_01.c:22:6: warning: unused variable 'z' [-Wunused-variable]
+        int z;
+            ^
+../05_01.c:21:6: warning: unused variable 'y' [-Wunused-variable]
+Finished building: ../05_01.c
+        int y;
+            ^
+../05_01.c:26:7: warning: unused variable 'myLastKnownAddress' [-Wunused-variable]
+        char myLastKnownAddress[30];
+             ^
+ 
+Building file: ../05_02.c
+../05_01.c:35:9: warning: unused variable 'x' [-Wunused-variable]
+        double x,y,z;
+               ^
+../05_01.c:35:11: warning: unused variable 'y' [-Wunused-variable]
+        double x,y,z;
+                 ^
+../05_01.c:35:13: warning: unused variable 'z' [-Wunused-variable]
+        double x,y,z;
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"05_02.d" -MT"05_02.d" -o "05_02.o" "../05_02.c"
+                   ^
+8 warnings generated.
+../05_02.c:20:6: warning: variable 'x' is uninitialized when used here [-Wuninitialized]
+        z = x + y;
+            ^
+../05_02.c:16:7: note: initialize the variable 'x' to silence this warning
+        int x;
+             ^
+              = 0
+../05_02.c:20:10: warning: variable 'y' is uninitialized when used here [-Wuninitialized]
+        z = x + y;
+                ^
+../05_02.c:17:7: note: initialize the variable 'y' to silence this warning
+        int y;
+             ^
+              = 0
+Finished building: ../05_02.c
+2 warnings generated.
+ 
+Building file: ../05_03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"05_03.d" -MT"05_03.d" -o "05_03.o" "../05_03.c"
+Finished building: ../05_03.c
+ 
+Building file: ../06_01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"06_01.d" -MT"06_01.d" -o "06_01.o" "../06_01.c"
+Finished building: ../06_01.c
+ 
+Building file: ../06_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"06_02.d" -MT"06_02.d" -o "06_02.o" "../06_02.c"
+Finished building: ../06_02.c
+ 
+Building file: ../06_03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"06_03.d" -MT"06_03.d" -o "06_03.o" "../06_03.c"
+Finished building: ../06_03.c
+ 
+Building file: ../06_04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"06_04.d" -MT"06_04.d" -o "06_04.o" "../06_04.c"
+Finished building: ../06_04.c
+ 
+Building file: ../06_05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"06_05.d" -MT"06_05.d" -o "06_05.o" "../06_05.c"
+../06_05.c:22:8: warning: unused variable 's' [-Wunused-variable]
+        float s =  2.08;
+              ^
+../06_05.c:23:8: warning: unused variable 't' [-Wunused-variable]
+        float t = -5.32;
+              ^
+2 warnings generated.
+Finished building: ../06_05.c
+ 
+Building file: ../06_06.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"06_06.d" -MT"06_06.d" -o "06_06.o" "../06_06.c"
+Finished building: ../06_06.c
+ 
+Building file: ../06_06a.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"06_06a.d" -MT"06_06a.d" -o "06_06a.o" "../06_06a.c"
+Finished building: ../06_06a.c
+ 
+Building file: ../06_07.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"06_07.d" -MT"06_07.d" -o "06_07.o" "../06_07.c"
+../06_07.c:22:6: warning: unused variable 'c' [-Wunused-variable]
+        int c = a + b;
+            ^
+1 warning generated.
+Finished building: ../06_07.c
+ 
+Building file: ../06_09.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"06_09.d" -MT"06_09.d" -o "06_09.o" "../06_09.c"
+Finished building: ../06_09.c
+ 
+Building file: ../06_11.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"06_11.d" -MT"06_11.d" -o "06_11.o" "../06_11.c"
+Finished building: ../06_11.c
+ 
+Building file: ../07_01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"07_01.d" -MT"07_01.d" -o "07_01.o" "../07_01.c"
+Finished building: ../07_01.c
+ 
+Building file: ../07_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"07_02.d" -MT"07_02.d" -o "07_02.o" "../07_02.c"
+Finished building: ../07_02.c
+ 
+Building file: ../07_03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"07_03.d" -MT"07_03.d" -o "07_03.o" "../07_03.c"
+Finished building: ../07_03.c
+ 
+Building file: ../07_04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"07_04.d" -MT"07_04.d" -o "07_04.o" "../07_04.c"
+Finished building: ../07_04.c
+ 
+Building file: ../07_06.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"07_06.d" -MT"07_06.d" -o "07_06.o" "../07_06.c"
+Finished building: ../07_06.c
+ 
+Building file: ../07_08.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"07_08.d" -MT"07_08.d" -o "07_08.o" "../07_08.c"
+Finished building: ../07_08.c
+ 
+Building file: ../08_01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"08_01.d" -MT"08_01.d" -o "08_01.o" "../08_01.c"
+Finished building: ../08_01.c
+ 
+Building file: ../08_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"08_02.d" -MT"08_02.d" -o "08_02.o" "../08_02.c"
+Finished building: ../08_02.c
+ 
+Building file: ../08_03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"08_03.d" -MT"08_03.d" -o "08_03.o" "../08_03.c"
+Finished building: ../08_03.c
+ 
+Building file: ../08_04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"08_04.d" -MT"08_04.d" -o "08_04.o" "../08_04.c"
+Finished building: ../08_04.c
+ 
+Building file: ../08_06.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"08_06.d" -MT"08_06.d" -o "08_06.o" "../08_06.c"
+Finished building: ../08_06.c
+ 
+Building file: ../09_01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"09_01.d" -MT"09_01.d" -o "09_01.o" "../09_01.c"
+Finished building: ../09_01.c
+ 
+Building file: ../09_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"09_02.d" -MT"09_02.d" -o "09_02.o" "../09_02.c"
+Finished building: ../09_02.c
+ 
+Building file: ../09_03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"09_03.d" -MT"09_03.d" -o "09_03.o" "../09_03.c"
+Finished building: ../09_03.c
+ 
+Building file: ../09_04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"09_04.d" -MT"09_04.d" -o "09_04.o" "../09_04.c"
+Finished building: ../09_04.c
+ 
+Building file: ../09_05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"09_05.d" -MT"09_05.d" -o "09_05.o" "../09_05.c"
+Finished building: ../09_05.c
+ 
+Building file: ../09_07.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"09_07.d" -MT"09_07.d" -o "09_07.o" "../09_07.c"
+../09_07.c:34:11: warning: illegal character encoding in character literal [-Winvalid-source-encoding]
+Finished building: ../09_07.c
+                putchar('<A5>');
+                        ^
+1 warning generated.
+ 
+Building file: ../10_01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"10_01.d" -MT"10_01.d" -o "10_01.o" "../10_01.c"
+../10_01.c:17:9: warning: unused variable 'word' [-Wunused-variable]
+        char   word[10]; //an array of characters (a.k.a string)
+               ^
+../10_01.c:16:7: warning: unused variable 'scores' [-Wunused-variable]
+        int  scores[20]; //an array that holds a maximum of 20 integers
+Finished building: ../10_01.c
+             ^
+../10_01.c:18:9: warning: unused variable 'data' [-Wunused-variable]
+        double data[50]; //an array to store up to 50 data points from a test
+               ^
+3 warnings generated.
+ 
+Building file: ../10_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"10_02.d" -MT"10_02.d" -o "10_02.o" "../10_02.c"
+../10_02.c:19:9: warning: unused variable 'data' [-Wunused-variable]
+        double data[MAX_DATA_POINTS]; //an array to store up to 50 data points
+Finished building: ../10_02.c
+               ^
+../10_02.c:18:9: warning: unused variable 'word' [-Wunused-variable]
+ 
+        char   word[MAX_LETTERS];     //an array of characters (a.k.a string)
+Building file: ../10_03.c
+               ^
+../10_02.c:17:7: warning: unused variable 'scores' [-Wunused-variable]
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"10_03.d" -MT"10_03.d" -o "10_03.o" "../10_03.c"
+        int  scores[MAX_SCORES];      //an array that holds a maximum of 20 integers
+             ^
+3 warnings generated.
+../10_03.c:17:8: warning: unused variable 'classrooms' [-Wunused-variable]
+        int   classrooms[5]          = {15, 18, 10, 23, 15};
+              ^
+../10_03.c:18:8: warning: unused variable 'heights' [-Wunused-variable]
+Finished building: ../10_03.c
+        float heights []             = {5.5, 6.1, 5.8};
+              ^
+../10_03.c:19:8: warning: unused variable 'lastName' [-Wunused-variable]
+ 
+        char  lastName[MAX_LETTERS]  = "Mr. Johnson";
+              ^
+Building file: ../10_04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"10_04.d" -MT"10_04.d" -o "10_04.o" "../10_04.c"
+3 warnings generated.
+Finished building: ../10_04.c
+ 
+Building file: ../10_05.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"10_05.d" -MT"10_05.d" -o "10_05.o" "../10_05.c"
+Finished building: ../10_05.c
+ 
+Building file: ../10_06.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"10_06.d" -MT"10_06.d" -o "10_06.o" "../10_06.c"
+../10_06.c:22:41: warning: array index 5 is past the end of the array (which contains 5 elements) [-Warray-bounds]
+Finished building: ../10_06.c
+        printf("The 6th element is %d \n\n",   list[5]); //does not exist
+                                               ^    ~
+ 
+../10_06.c:15:2: note: array 'list' declared here
+Building file: ../10_07.c
+        int list[5] = {23, 21, 15, 8, 16};
+        ^
+../10_06.c:23:40: warning: array index 19 is past the end of the array (which contains 5 elements) [-Warray-bounds]
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"10_07.d" -MT"10_07.d" -o "10_07.o" "../10_07.c"
+        printf("The 20th element is %d \n\n", list[19]); //the array length is 5 !!
+                                              ^    ~~
+../10_06.c:15:2: note: array 'list' declared here
+        int list[5] = {23, 21, 15, 8, 16};
+        ^
+2 warnings generated.
+Finished building: ../10_07.c
+ 
+Building file: ../10_09.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"10_09.d" -MT"10_09.d" -o "10_09.o" "../10_09.c"
+../10_09.c:63:11: warning: illegal character encoding in character literal [-Winvalid-source-encoding]
+Finished building: ../10_09.c
+ 
+Building file: ../11_01.c
+                putchar('<A5>');
+                        ^
+1 warning generated.
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"11_01.d" -MT"11_01.d" -o "11_01.o" "../11_01.c"
+../11_01.c:18:10: warning: unused variable 'price' [-Wunused-variable]
+        double *price;
+                ^
+../11_01.c:17:8: warning: unused variable 'letter' [-Wunused-variable]
+        char *letter;
+              ^
+../11_01.c:16:7: warning: unused variable 'pointerInt' [-Wunused-variable]
+        int *pointerInt;
+             ^
+Finished building: ../11_01.c
+3 warnings generated.
+ 
+Building file: ../11_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"11_02.d" -MT"11_02.d" -o "11_02.o" "../11_02.c"
+Finished building: ../11_02.c
+ 
+Building file: ../11_03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"11_03.d" -MT"11_03.d" -o "11_03.o" "../11_03.c"
+../11_03.c:21:36: warning: format specifies type 'unsigned int' but the argument has type 'int *' [-Wformat]
+                printf("Address %x contains %d", ptr, *ptr);
+                                ~~               ^~~
+1 warning generated.
+Finished building: ../11_03.c
+ 
+Building file: ../11_04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"11_04.d" -MT"11_04.d" -o "11_04.o" "../11_04.c"
+../11_04.c:18:41: warning: format specifies type 'unsigned int' but the argument has type 'int *' [-Wformat]
+Finished building: ../11_04.c
+ 
+        printf("Address %x stores value %d\n", ptr, *ptr);
+                        ~~                     ^~~
+Building file: ../11_05.c
+../11_04.c:21:41: warning: format specifies type 'unsigned int' but the argument has type 'int *' [-Wformat]
+Invoking: GCC C Compiler
+        printf("Address %x stores value %d\n", ptr, *ptr);
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"11_05.d" -MT"11_05.d" -o "11_05.o" "../11_05.c"
+                        ~~                     ^~~
+../11_04.c:24:41: warning: format specifies type 'unsigned int' but the argument has type 'int *' [-Wformat]
+        printf("Address %x stores value %d\n", ptr, *ptr);
+                        ~~                     ^~~
+../11_04.c:28:41: warning: format specifies type 'unsigned int' but the argument has type 'int *' [-Wformat]
+        printf("Address %x stores value %d\n", ptr, *ptr);
+                        ~~                     ^~~
+4 warnings generated.
+../11_05.c:18:56: warning: format specifies type 'unsigned int' but the argument has type 'int *' [-Wformat]
+Finished building: ../11_05.c
+        printf("data[] starts at address %x with value %d\n", ptr, *ptr);
+ 
+                                         ~~                   ^~~
+../11_05.c:25:42: warning: format specifies type 'unsigned int' but the argument has type 'int *' [-Wformat]
+Building file: ../11_06.c
+                printf("Address %x stores value %d\n", ptr, *ptr);
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"11_06.d" -MT"11_06.d" -o "11_06.o" "../11_06.c"
+                                ~~                     ^~~
+2 warnings generated.
+../11_06.c:23:41: warning: format specifies type 'unsigned int' but the argument has type 'int *' [-Wformat]
+        printf("Address %x stores value %d\n", dynamicArray, *dynamicArray);
+                        ~~                     ^~~~~~~~~~~~
+../11_06.c:27:45: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("The size of dynamicArray is %d\n", sizeof(dynamicArray));
+                                            ~~     ^~~~~~~~~~~~~~~~~~~~
+                                            %lu
+../11_06.c:17:6: warning: unused variable 'staticArray' [-Wunused-variable]
+        int staticArray[20];
+            ^
+Finished building: ../11_06.c
+3 warnings generated.
+ 
+Building file: ../12_01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"12_01.d" -MT"12_01.d" -o "12_01.o" "../12_01.c"
+Finished building: ../12_01.c
+ 
+Building file: ../12_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"12_02.d" -MT"12_02.d" -o "12_02.o" "../12_02.c"
+Finished building: ../12_02.c
+ 
+Building file: ../12_03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"12_03.d" -MT"12_03.d" -o "12_03.o" "../12_03.c"
+Finished building: ../12_03.c
+ 
+Building file: ../12_04.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"12_04.d" -MT"12_04.d" -o "12_04.o" "../12_04.c"
+Finished building: ../12_04.c
+ 
+Building file: ../13_01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"13_01.d" -MT"13_01.d" -o "13_01.o" "../13_01.c"
+Finished building: ../13_01.c
+ 
+Building file: ../13_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"13_02.d" -MT"13_02.d" -o "13_02.o" "../13_02.c"
+../13_02.c:26:6: warning: unused variable 'ch' [-Wunused-variable]
+        int ch;
+            ^
+../13_02.c:35:54: warning: variable 'fp' is uninitialized when used here [-Wuninitialized]
+        fwrite(messageToWrite, strlen(messageToWrite)+1, 1, fp);
+                                                            ^~
+../13_02.c:27:10: note: initialize the variable 'fp' to silence this warning
+        FILE *fp;  // pointer to a file type
+                ^
+                 = NULL
+2 warnings generated.
+Finished building: ../13_02.c
+ 
+Building file: ../13_03.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"13_03.d" -MT"13_03.d" -o "13_03.o" "../13_03.c"
+Finished building: ../13_03.c
+ 
+Building file: ../14_01.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"14_01.d" -MT"14_01.d" -o "14_01.o" "../14_01.c"
+../14_01.c:16:2: warning: implicit declaration of function 'readData' is invalid in C99 [-Wimplicit-function-declaration]
+        readData();
+        ^
+../14_01.c:17:2: warning: implicit declaration of function 'validateData' is invalid in C99 [-Wimplicit-function-declaration]
+        validateData();
+        ^
+../14_01.c:18:2: warning: implicit declaration of function 'processData' is invalid in C99 [-Wimplicit-function-declaration]
+        processData();
+        ^
+../14_01.c:19:2: warning: implicit declaration of function 'analyzeResults' is invalid in C99 [-Wimplicit-function-declaration]
+        analyzeResults();
+        ^
+../14_01.c:20:2: warning: implicit declaration of function 'generateReport' is invalid in C99 [-Wimplicit-function-declaration]
+        generateReport();
+        ^
+../14_01.c:21:2: warning: implicit declaration of function 'writeFormattedReport' is invalid in C99 [-Wimplicit-function-declaration]
+        writeFormattedReport();
+        ^
+../14_01.c:22:2: warning: implicit declaration of function 'archiveData' is invalid in C99 [-Wimplicit-function-declaration]
+        archiveData();
+        ^
+../14_01.c:23:2: warning: implicit declaration of function 'disseminateResults' is invalid in C99 [-Wimplicit-function-declaration]
+        disseminateResults();
+        ^
+../14_01.c:30:7: error: conflicting types for 'readData'
+        void readData(){
+             ^
+../14_01.c:16:2: note: previous implicit declaration is here
+        readData();
+        ^
+../14_01.c:34:7: error: conflicting types for 'validateData'
+        void validateData(){
+             ^
+../14_01.c:17:2: note: previous implicit declaration is here
+        validateData();
+        ^
+../14_01.c:38:7: error: conflicting types for 'processData'
+        void processData(){
+             ^
+../14_01.c:18:2: note: previous implicit declaration is here
+        processData();
+        ^
+../14_01.c:41:7: error: conflicting types for 'analyzeResults'
+        void analyzeResults(){
+             ^
+../14_01.c:19:2: note: previous implicit declaration is here
+        analyzeResults();
+        ^
+../14_01.c:45:7: error: conflicting types for 'generateReport'
+        void generateReport(){
+             ^
+../14_01.c:20:2: note: previous implicit declaration is here
+        generateReport();
+        ^
+../14_01.c:49:7: error: conflicting types for 'writeFormattedReport'
+        void writeFormattedReport(){
+             ^
+../14_01.c:21:2: note: previous implicit declaration is here
+        writeFormattedReport();
+        ^
+../14_01.c:53:7: error: conflicting types for 'archiveData'
+        void archiveData(){
+             ^
+../14_01.c:22:2: note: previous implicit declaration is here
+        archiveData();
+        ^
+../14_01.c:57:7: error: conflicting types for 'disseminateResults'
+        void disseminateResults(){
+             ^
+../14_01.c:23:2: note: previous implicit declaration is here
+        disseminateResults();
+        ^
+8 warnings and 8 errors generated.
+make: *** [14_01.o] Error 1

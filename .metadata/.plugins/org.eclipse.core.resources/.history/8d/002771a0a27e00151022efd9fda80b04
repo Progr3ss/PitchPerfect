@@ -1,0 +1,27 @@
+'''
+Created on Oct 25, 2015
+
+@author: martinchibwe
+'''
+import socket
+# from EasyDialogs import Message
+#       serverName = 'ada'
+# 
+#       serverPort = 12000
+#       ## constructor takes 2 arguments
+#       s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+#       message = 'hello'
+#       s.sendto(bytes(message), (serverName, serverPort))
+#       ## get a response
+#       reply, serverAddr = s.recvfrom(2048)
+#       print(reply)
+
+serverName ='ada'
+serverPort = 12000
+## constructor
+s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+message = 'hello'
+s.sendto(bytes(message), (serverName, serverPort))
+##get a response 
+reply, serverAddr = s.recvfrom(2048)
+print reply

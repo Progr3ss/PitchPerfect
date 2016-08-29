@@ -1,0 +1,60 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+
+public class ArrayList {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] data = {1, -3, 4, 7, 2};
+		int []numbers = new int [8];
+		numbers[1] = 4;
+		numbers[4] = 99;
+		numbers[7] = 2;
+		
+		int x = numbers[1];
+		numbers[x] = 44;
+		numbers[numbers[7]] = 11;
+//		Arrays.toString(maxNumberArray(data));
+//		System.out.println(Arrays.toString(maxNumerArray(data)));
+//		maxNumberArray(data);
+		
+//		System.out.println(Arrays.toString(numbers));
+		
+		System.out.println("\n Max result: " + maxNumberArray(data));
+		System.out.println("\n backwards result: " + Arrays.toString(backwards(data)));
+
+	}
+	
+	public static int maxNumberArray(int []array){
+		int min = array[0];
+		int max = array[0];
+		for (int i = 0; i < array.length; i++) {
+			if (array[i] > max) {
+				max = array[i];
+			}else if (array[i] < min){
+				min = array[i];
+			}
+		}
+		
+		
+		return max;
+	}
+	
+	public static int[] backwards(int [] array){
+	
+		int [] backwards = new int [array.length];
+		int nextPos = 0;
+		for (int i = array.length - 1; i >= 0; i--) {
+			System.out.println("element " +"[" + nextPos +"]"+ "is" + array[i] );
+			backwards[nextPos] = array[i];
+			nextPos++;
+
+		}
+		return backwards;
+	}
+	
+}
