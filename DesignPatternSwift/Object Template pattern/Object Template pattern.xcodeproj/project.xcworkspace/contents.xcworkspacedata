@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Flickx.xcodeproj">
+      location = "self:Object Template pattern.xcodeproj">
    </FileRef>
 </Workspace>

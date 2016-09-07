@@ -2,7 +2,7 @@
 //  FlickxTests.swift
 //  FlickxTests
 //
-//  Created by martin chibwe on 8/29/16.
+//  Created by martin chibwe on 8/30/16.
 //  Copyright © 2016 Martin Chibwe. All rights reserved.
 //
 
@@ -28,7 +28,7 @@ class FlickxTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measure {
+        self.measureBlock {
             // Put the code you want to measure the time of here.
         }
     }

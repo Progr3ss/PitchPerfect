@@ -2,7 +2,7 @@
 //  FlickxUITests.swift
 //  FlickxUITests
 //
-//  Created by martin chibwe on 8/29/16.
+//  Created by martin chibwe on 8/30/16.
 //  Copyright © 2016 Martin Chibwe. All rights reserved.
 //
 

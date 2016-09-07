@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Flickx.xcscheme</key>
+		<key>Object Template pattern.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>91E960DC1D74F0980039E0C0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>91E960F01D74F0980039E0C0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>91E960FB1D74F0980039E0C0</key>
+		<key>9153D0721D7F9B470086BAAE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
