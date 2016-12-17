@@ -1,15 +1,15 @@
 //
-//  PitchPerfectTests.swift
-//  PitchPerfectTests
+//  PlayVideoTests.swift
+//  PlayVideoTests
 //
-//  Created by martin chibwe on 6/30/16.
-//  Copyright © 2016 martin chibwe. All rights reserved.
+//  Created by martin chibwe on 12/9/16.
+//  Copyright © 2016 Martin Chibwe. All rights reserved.
 //
 
 import XCTest
-@testable import PitchPerfect
+@testable import PlayVideo
 
-class PitchPerfectTests: XCTestCase {
+class PlayVideoTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

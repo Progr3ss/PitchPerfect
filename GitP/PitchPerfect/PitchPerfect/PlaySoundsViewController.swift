@@ -20,13 +20,13 @@ class PlaySoundsViewController: UIViewController {
 	@IBOutlet weak var stopButton: UIButton!
 	
 	
-	var recordedAudioURL:NSURL!
+	var recordedAudioURL:URL!
 	var audioFile:AVAudioFile!
 	var audioEngine:AVAudioEngine!
 	var audioPlayerNode: AVAudioPlayerNode!
-	var stopTimer: NSTimer!
+	var stopTimer: Timer!
 	
-	enum ButtonType : Int{case Slow = 0, Fast, Chipmunk, Vader, Echo, Reverb}
+	enum ButtonType : Int{case slow = 0, fast, chipmunk, vader, echo, reverb}
 	
 	
 
@@ -38,50 +38,50 @@ class PlaySoundsViewController: UIViewController {
 
     }
 	
-	override func viewWillAppear(animated: Bool) {
+	override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(animated)
 		
-		configureUI(.NotPlaying)
+		configureUI(.notPlaying)
 	}
 	
 	
 	func setupScaleAspectFit() {
 		
-		snailButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
-		rabbitButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
-		chipmunkButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
-		vaderButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
-		echoButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
-		reverbButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
-		stopButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
+		snailButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
+		rabbitButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
+		chipmunkButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
+		vaderButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
+		echoButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
+		reverbButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
+		stopButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
 	}
 	
 	
 	
-	@IBAction func playSoundForButton(sender:AnyObject) {
+	@IBAction func playSoundForButton(_ sender:AnyObject) {
 		switch(ButtonType(rawValue: sender.tag)! ){
-		case.Slow:
+		case.slow:
 			playSound(rate:0.5)
-		case.Fast:
+		case.fast:
 			playSound(pitch:1.5)
-		case.Chipmunk:
+		case.chipmunk:
 			playSound(pitch:1000)
-		case.Vader:
+		case.vader:
 			playSound(pitch: -1000)
-		case.Echo:
+		case.echo:
 			playSound(echo:true)
-		case.Reverb:
+		case.reverb:
 			playSound(reverb:true)
 		
 			
 		}
-		configureUI(.Playing)
+		configureUI(.playing)
 
 		
 		
 	}
 	
-	@IBAction func stopButton(sender: AnyObject) {
+	@IBAction func stopButton(_ sender: AnyObject) {
 		stopAudio()
 	}
 
